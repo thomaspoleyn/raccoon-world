@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="nl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Raccoon World | Contact</title>
+    <link rel="stylesheet" href="./style/style.css" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Icons -->
+    <script
+      src="https://kit.fontawesome.com/cacbfb97da.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <section>
+        <!-- container -->
+        <div class="container">
+          <nav class="navbar">
+            <div class="logo__wrapper">
+              <strong class="logo">Raccoon World</strong>
+            </div>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="wereldkaart.html">Wereldkaart</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="container">
+          <span class="hero__label">Vraagland</span>
+          <h1 class="hero__title">Contacteer Ons</h1>
+          <p class="hero__description">
+            We horen graag van jou! Heb je vragen, opmerkingen of suggesties?<br />
+            Of wil je gewoon iets delen over jouw ontdekkingen en avonturen met
+            onze atlas?<br />
+            Neem contact met ons op, en we helpen je graag verder.
+          </p>
+        </div>
+      </section>
+    </header>
+    <main>
+      <!-- Spacer -->
+      <div class="space__128px"></div>
+      <!-- Spacer -->
+      <div class="container">
+        <div class="contact__form--grid">
+          <div class="contact__form--wrapper">
+            <article class="layout__01--showcase layout__01--showcase--flip">
+              <img
+                class="layout__01--image"
+                src="./images/raccoons/raccoon-world-image.png"
+                alt="Foto van een Wasbeer met een Wereldbol"
+              />
+            </article>
+          </div>
+          <div class="contact__form--wrapper">
+            <form action="/submit-contact" method="POST">
+              <h3 class="heading__03">Contactformulier</h3>
+
+              <div class="contact__form--wrapper">
+                <!-- Naam -->
+                <label class="contact__form--label" for="name">Naam:</label>
+                <input
+                  class="contact__form--input"
+                  type="text"
+                  id="name"
+                  name="name"
+                  placeholder="Vul je volledige naam in"
+                  required
+                />
+              </div>
+
+              <div class="contact__form--wrapper">
+                <!-- E-mailadres -->
+                <label class="contact__form--label" for="email"
+                  >E-mailadres:</label
+                >
+                <input
+                  class="contact__form--input"
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="Vul je e-mailadres in"
+                  required
+                />
+              </div>
+
+              <div class="contact__form--wrapper">
+                <!-- Telefoonnummer -->
+                <label class="contact__form--label" for="phone"
+                  >Telefoonnummer (optioneel):</label
+                >
+                <input
+                  class="contact__form--input"
+                  type="tel"
+                  id="phone"
+                  name="phone"
+                  placeholder="Vul je telefoonnummer in"
+                />
+              </div>
+
+              <div class="contact__form--wrapper">
+                <!-- Onderwerp -->
+                <label class="contact__form--label" for="subject"
+                  >Onderwerp:</label
+                >
+                <input
+                  class="contact__form--input"
+                  type="text"
+                  id="subject"
+                  name="subject"
+                  placeholder="Waar gaat je vraag of bericht over?"
+                  required
+                />
+              </div>
+
+              <div class="contact__form--wrapper">
+                <!-- Bericht -->
+                <label class="contact__form--label" for="message"
+                  >Bericht:</label
+                >
+                <textarea
+                  class="contact__form--text-area"
+                  id="message"
+                  name="message"
+                  maxlength="5000"
+                  placeholder="Schrijf hier je bericht..."
+                  required
+                ></textarea>
+              </div>
+
+              <!-- Verzenden -->
+              <button class="hero__btn" type="submit">Verstuur Bericht</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <!-- Spacer -->
+      <div class="space__256px"></div>
+      <!-- Spacer -->
+    </main>
+    <footer>
+      <div class="container">
+        <div class="footer__divider"></div>
+        <div class="footer__grid">
+          <!-- Logo en copyright -->
+          <div class="footer__flex--vertical">
+            <ul class="footer__list--items">
+              <li>
+                <a class="footer__list--link" href="#"
+                  >&amp;copy 2024 Raccoon World All rights reserverd</a
+                >
+              </li>
+              <li>
+                <div class="footer__wrapper">
+                  <a class="footer__list--link" href="#top">Back to top</a>
+                  <i class="fa-solid fa-arrow-up fa-lg"></i>
+                </div>
+              </li>
+            </ul>
+            <strong class="footer__logo">Raccoon World</strong>
+          </div>
+          <!-- Information Links -->
+          <div class="footer__flex--vertical">
+            <ul class="footer__list--items">
+              <li>
+                <a class="footer__list--link" href="#">Privacy Policy</a>
+              </li>
+              <li>
+                <a class="footer__list--link" href="#">Terms and conditions</a>
+              </li>
+              <li>
+                <a class="footer__list--link" href="#">Disclaimer</a>
+              </li>
+            </ul>
+            <ul class="footer__list--items">
+              <li>
+                <a class="footer__list--link" href="">Made by Thomas Poleyn</a>
+              </li>
+            </ul>
+          </div>
+          <!-- Continent Links -->
+          <div class="footer__flex--vertical">
+            <ul class="footer__list--items">
+              <li>
+                <a
+                  class="footer__list--link footer__list--underline"
+                  href="afrika.html"
+                  >Ontdek Afrika</a
+                >
+              </li>
+              <li>
+                <a
+                  class="footer__list--link footer__list--underline"
+                  href="azie.html"
+                  >Ontdek Azië</a
+                >
+              </li>
+              <li>
+                <a
+                  class="footer__list--link footer__list--underline"
+                  href="europa.html"
+                  >Ontdek Europa</a
+                >
+              </li>
+              <li>
+                <a
+                  class="footer__list--link footer__list--underline"
+                  href="noord-amerika.html"
+                  >Ontdek Noord-Amerika</a
+                >
+              </li>
+              <li>
+                <a
+                  class="footer__list--link footer__list--underline"
+                  href="oceanie.html"
+                  >Ontdek Oceanie</a
+                >
+              </li>
+              <li>
+                <a
+                  class="footer__list--link footer__list--underline"
+                  href="zuid-amerika.html"
+                  >Ontdek Zuid-Amerika</a
+                >
+              </li>
+            </ul>
+          </div>
+          <!-- Social media -->
+          <div class="footer__flex--vertical">
+            <ul class="footer__socials">
+              <li>
+                <a class="footer__social--link" href="#"
+                  ><i class="fa-brands fa-facebook"></i
+                ></a>
+              </li>
+              <li>
+                <a class="footer__social--link" href="#"
+                  ><i class="fa-brands fa-instagram"></i
+                ></a>
+              </li>
+              <li>
+                <a class="footer__social--link" href="#"
+                  ><i class="fa-brands fa-linkedin-in"></i
+                ></a>
+              </li>
+              <li>
+                <a class="footer__social--link" href="#"
+                  ><i class="fa-brands fa-x-twitter"></i
+                ></a>
+              </li>
+              <li>
+                <a class="footer__social--link" href="#"
+                  ><i class="fa-brands fa-youtube"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
