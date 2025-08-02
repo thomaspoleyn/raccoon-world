@@ -16,5 +16,4 @@ Leer interessante feitjes over continenten en landen, verpakt in een speels en t
 
 ## 🛠️ Gebruikte technologieën  
 - HTML  
-- CSS  
-- JavaScript  
+- CSS
