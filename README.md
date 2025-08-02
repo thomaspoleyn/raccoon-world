@@ -1,5 +1,6 @@
 # 🦝 Raccoon World 🌍
-Een speelse en leerzame atlaswebsite
+Een speelse en leerzame atlaswebsite.
+Dit project is gemaakt als opdracht voor het vak **Frontend Basis**.
 
 ## 🌐 Live Demo  
 Bekijk het project hier: [Raccoon World op GitHub Pages](https://thomaspoleyn.github.io/raccoon-world/)
