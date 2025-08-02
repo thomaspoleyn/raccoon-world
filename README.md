@@ -10,7 +10,6 @@ Bekijk het project hier: [Raccoon World op GitHub Pages](https://thomaspoleyn.gi
 Leer interessante feitjes over continenten en landen, verpakt in een speels en toegankelijk design.
 
 ### 🎯 Features  
-- Interactieve wereldkaart  
 - Feitjes per continent  
 - Speels thema met wasberen  
 - Responsive design  
